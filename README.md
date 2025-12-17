@@ -17,3 +17,18 @@ Technologies used in this project
 > publishable as-is, as plain text, without
 > looking like it's been marked up with tags
 > or formatting instructions.
+
+
+```
+@Test(testName = "Google search test", description = "Test description")
+public class GoogleSearchTest extends BaseTest {
+
+	@Test
+	public void googleSearchTest() {
+		driver.get("https://www.google.co.in/");
+		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
+		googlePage.searchText("abc");
+		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
+	}
+}
+```
