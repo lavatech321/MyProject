@@ -32,3 +32,12 @@ public class GoogleSearchTest extends BaseTest {
 	}
 }
 ```
+
+| Plugin | README | Type |
+| ------ | ------ | ---- |
+| Dropbox | [plugins/dropbox/README.md][PlDb] | One |
+| GitHub | [plugins/github/README.md][PlGh] | Two |
+| Google Drive | [plugins/googledrive/README.md][PlGd] | Three |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
